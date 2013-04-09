@@ -1,0 +1,30 @@
+html {
+  background-color: #eeeeee;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 800px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.answer {
+  text-align: center;
+  border: thin dashed black;
+}
+.answer.over {
+  background-color: #666;
+}
+
+.answer, .choice {
+  background-color: #aaa;
+  border-color: #999;
+  min-height: 80px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  
+}
